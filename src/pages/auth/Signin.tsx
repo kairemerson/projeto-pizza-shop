@@ -40,6 +40,8 @@ export function Signin() {
             
         } catch (error) {
             toast.error("Credenciais inválidas")
+            console.log(error);
+            
         }
     }
 
